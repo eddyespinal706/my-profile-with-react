@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom"
+import "./Menu.css"
 
 const Menu = () =>{
     return(
         <nav className="main-menu">
             <ul>
-                <li><NavLink to={'/'}>Basic Info</NavLink></li>
-                <li><NavLink to={'/about'}>About me</NavLink></li>
-                <li><NavLink to={'/contact'}>Contact Info</NavLink></li>
+                <NavLink to={'/'}><li>Basic Info</li></NavLink>
+                <NavLink to={'/about'}><li>About me</li></NavLink>
+                <NavLink to={'/contact'}><li>Contact Info</li></NavLink>
             </ul>
         </nav>
     )

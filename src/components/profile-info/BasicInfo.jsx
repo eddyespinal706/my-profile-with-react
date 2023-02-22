@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import { BasicInfoContext } from '../context/BasicInfoContext'
+import "./BasicInfo.css"
 
 function BasicInfo() {
 
@@ -16,13 +17,11 @@ function BasicInfo() {
         <div className="basic-info">
           <p className="label">Name: <span className='info'>{info.name}</span></p>
           <p className="label">Birthday: <span className='info'>{info.birthday}</span></p>
-          <p className="label">Occupation: <span className='info'>{info.occupation}</span></p>
+          <p className="label">Occupation: <span className='info'>{info.occupation}</span></p><br />
           <h2 className='label'>Courses:</h2>
-          <ul>
-            <li className='info'>HTML</li>
-            <li className='info'>CSS</li>
-            <li className='info'>JavaScript</li>
-          </ul>
+          <p className='info'>HTML</p>
+          <p className='info'>CSS</p>
+          <p className='info'>JavaScript</p>
         </div>
       </div>
     </div>
