@@ -7,7 +7,7 @@ const Menu = () =>{
             <ul>
                 <NavLink to={'/'}><li>Basic Info</li></NavLink>
                 <NavLink to={'/about'}><li>About me</li></NavLink>
-                <NavLink to={'/contact'}><li>Contact Info</li></NavLink>
+                <NavLink to={'/contact'}><li>Contact</li></NavLink>
             </ul>
         </nav>
     )
