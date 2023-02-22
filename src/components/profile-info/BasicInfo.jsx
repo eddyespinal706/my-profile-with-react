@@ -18,10 +18,6 @@ function BasicInfo() {
           <p className="label">Name: <span className='info'>{info.name}</span></p>
           <p className="label">Birthday: <span className='info'>{info.birthday}</span></p>
           <p className="label">Occupation: <span className='info'>{info.occupation}</span></p><br />
-          <h2 className='label'>Courses:</h2>
-          <p className='info'>HTML</p>
-          <p className='info'>CSS</p>
-          <p className='info'>JavaScript</p>
         </div>
       </div>
     </div>
