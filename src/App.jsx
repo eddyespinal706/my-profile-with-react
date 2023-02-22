@@ -4,8 +4,8 @@ import Menu from "./components/menu/Menu"
 function App() {
   return (
     <>
-      <Outlet />
       <Menu />
+      <Outlet />
     </>
   )
 }
